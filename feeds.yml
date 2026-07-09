@@ -1,0 +1,26 @@
+# FEEDY RADARU — edytuj śmiało: nazwa: adres RSS
+# Uwaga: adresy /feed/ to standard WordPressa — większość zadziała od razu,
+# ale każdy oznaczony [SPRAWDŹ] zweryfikuj po pierwszym uruchomieniu
+# (sekcja "Feedy do sprawdzenia" na końcu digestu pokaże, które nie odpowiadają).
+
+PL — branża:
+  e-hotelarz: https://www.e-hotelarz.pl/feed/
+  Horecanet: https://www.horecanet.pl/feed/
+  e-hotelarstwo: https://www.e-hotelarstwo.com/rss # [SPRAWDŹ]
+  Horeca Business Club: https://www.horecabc.pl/feed/
+  Profitroom blog: https://www.profitroom.com/pl/blog/rss # [SPRAWDŹ]
+
+Świat:
+  Skift: https://skift.com/feed/
+  Hotel Tech Report: https://hoteltechreport.com/blog/feed # [SPRAWDŹ]
+  Revinate: https://www.revinate.com/blog/feed/
+  Hospitality Net: https://www.hospitalitynet.org/rss/news.xml # [SPRAWDŹ]
+
+DE — rynek niemiecki:
+  Tophotel: https://www.tophotel.de/feed/
+  AHGZ: https://www.ahgz.de/rss # [SPRAWDŹ]
+  Hotelier.de: https://www.hotelier.de/feed/ # [SPRAWDŹ]
+
+Marketing ogólny PL:
+  NowyMarketing: https://nowymarketing.pl/feed/
+  Marketing przy Kawie: https://marketingprzykawie.pl/feed/

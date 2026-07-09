@@ -1,0 +1,43 @@
+# SŁOWA KLUCZOWE — słowo: waga (wyższa = ważniejsze dla biuletynu)
+# Punktacja: suma wag słów znalezionych w tytule+zajawce. Edytuj swobodnie.
+
+# rdzeń tematyczny
+marketing: 3
+kampani: 3        # łapie: kampania, kampanie, kampanii
+reklam: 3
+promocj: 2
+newsletter: 2
+e-mail: 2
+
+# kanały i mechanika
+google ads: 4
+meta ads: 4
+facebook: 2
+instagram: 2
+seo: 2
+booking: 3
+ota: 4
+direct: 3
+rezerwacj: 2
+
+# nasze wyróżniki
+niemieck: 5
+german: 4
+deutsch: 4
+offline: 4
+print: 3
+lokaln: 2
+spa: 2
+wellness: 2
+aquapark: 4
+
+# dane i liczby (paliwo Barometru)
+raport: 3
+badani: 3
+dane: 2
+trend: 2
+benchmark: 4
+obłożeni: 3
+occupancy: 3
+revpar: 3
+adr: 2
