@@ -1,0 +1,37 @@
+name: RADAR biuletynu
+
+on:
+  schedule:
+    - cron: "0 6 * * 1,3,5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj biblioteki
+        run: pip install feedparser pyyaml
+
+      - name: Uruchom radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python radar.py
+
+      - name: Zapisz digest do repozytorium
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add digest/ seen.json
+          git diff --cached --quiet || git commit -m "RADAR: digest $(date -u +%F)"
+          git push
